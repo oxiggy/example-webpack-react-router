@@ -1,0 +1,38 @@
+{
+  "name": "example-webpack-react-router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.conf.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode production --progress",
+    "dev": "webpack --config webpack.config.js --mode development --progress --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "oxiggy",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/plugin-proposal-class-properties": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/preset-react": "latest",
+    "babel-loader": "latest",
+    "copy-webpack-plugin": "latest",
+    "css-loader": "latest",
+    "file-loader": "latest",
+    "html-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "mini-css-extract-plugin": "latest",
+    "pug-html-loader": "latest",
+    "stylus": "latest",
+    "stylus-loader": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest"
+  },
+  "dependencies": {
+    "classnames": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-media": "latest",
+    "react-router-dom": "latest"
+  }
+}
